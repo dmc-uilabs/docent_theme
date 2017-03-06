@@ -1,0 +1,236 @@
+@import 'variables';
+@import 'utilities';
+@import 'fonts';
+@import 'questions';
+body {
+  background-color: $color-white;
+  font-family: "didact_gothicregular", sans-serif;
+}
+
+header {
+	background:$color-black;;
+	color:$color-white;
+
+	&#primaryheader {
+		padding-bottom:30px;
+		nav.navbar {
+			margin-bottom:0px;
+		}
+		.topWrap {
+			border-bottom:1px solid $color-greyish-brown2;
+		}
+
+		.row {
+		padding-bottom:30px;
+		}
+		
+	}
+
+
+	&#subheader {
+
+		.breadcrumb {
+			background:transparent;
+			padding:0;
+			margin:0;
+			font-size:22px;
+			letter-spacing: 0.8px;
+			a {color:white;
+				font-weight:light;
+				text-decoration:underline;}
+			.active{
+				font-weight:normal;
+				font-family: "poppinsbold", sans-serif;
+				color:white;
+			
+			}
+			& > li + li::before {
+				font-family: "didact_gothicregular", sans-serif;
+			}
+		}
+		.progress {
+			margin-bottom:0px;
+			margin-top:26px;
+			border-radius: 0px;	
+
+		}
+		.meta {
+			font-size:15px;
+			line-height:14px;
+			text-align:right;
+			margin-bottom:15px;
+		}
+		.collapse-link {
+			text-decoration:underline;
+			cursor:pointer;
+		}
+		p {
+			line-height:24px;
+			font-size:16px;
+			margin-bottom:30px;
+
+		}
+	}
+}
+
+.navbar.navbar-default {
+	background:transparent;
+	border:none;
+	.navbar-brand {
+		color:$color-white;
+	}
+	a.dropdown-toggle {
+		color:$color-white;
+		&:hover, &:focus {
+			color:white;
+		}
+	}
+	.dropdown.open {
+		a.dropdown-toggle {
+			background:none;
+		}
+	}
+
+
+	.dropdown-menu {
+		background:$color-blue;
+		text-align:right;
+		padding:0;
+		a {
+			color:$color-white;
+			line-height:14px;
+			font-size:16px;
+			padding:15px 25px 15px 20px;
+
+			&:hover, &.active,  &:focus, &:active {
+				background-color: $color-vivid-blue;
+			}
+		}
+	}
+}
+#mainContent {
+	padding-top:30px;
+	 padding-bottom:30px;
+	.collapse-link {
+		color: $color-blue;
+		font-weight:bold;
+		cursor:pointer;
+	}
+
+	.sidebar {
+		right:15px;
+		top:30px;;
+		max-width:263px;
+	}
+}
+.progress {
+	background-image: linear-gradient(-65deg, #616161 25%, transparent 25%, transparent 50%, #616161 50%, #616161 75%, transparent 75%, transparent);
+	background-size:10px 20px;
+	background-color:$color-greyish-brown;
+	.progress-bar {
+		background:$color-blue;
+	}
+}
+
+.btn-primary {
+	background: $color-blue;
+	border-radius: 0px;
+	display:block;
+	width:136px;
+	margin-bottom:10px;
+	&:hover, &.active, &:focus, &:active {
+		background-color: $color-blue;
+	}
+}
+
+.progressTable{
+	td.indicator{
+		width:35px;
+		background-color: $color-offwhite;
+		&.correct{
+			background-color: $color-correct;
+			&:after {
+			content: "";
+			font-family: 'Glyphicons Halflings';
+			display:block;
+			color:white;
+			text-align:center;
+			}
+		
+		}
+		&.incorrect{
+			background-color: $color-incorrect;
+			&:after {
+			content: "";
+			font-family: 'Glyphicons Halflings';
+			display:block;
+			color:white;
+			text-align:center;
+			}
+		}
+		&.incomplete{
+			background-color: $color-incomplete;
+			&:after {
+			content: "−";
+			font-family: 'Glyphicons Halflings';
+			display:block;
+			color:white;
+			text-align:center;
+			}
+		}
+	}
+}
+
+hr {
+	border-color: #dcdcdc;
+	margin:50px 0;
+}
+
+
+/* Button overrides */
+.btn {
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:12px;
+	line-height:1.0;
+	letter-spacing: 0.9px;
+	padding: 13px 25px 11px 25px;
+	font-family: "poppinsbold", sans-serif;
+}
+input, textarea, .form-control {
+	border-radius: 0;
+	background-color:#fbfbfb;
+	border-color: #dcdcdc;
+}
+
+form label {
+	margin-bottom:13px;
+
+}
+.form-group {
+	margin-bottom:40px;
+}
+.btn-default {
+	background:$color-black;
+	border:none;
+	color:white;
+	&:hover {
+		background:$color-black;
+		color:white; 
+	}
+}
+
+// Should include the bootstrap vars for this.
+@media (max-width: 768px) {
+	.nav.navbar-nav {
+		text-align:center;
+		& > li > a {
+			color:white;
+			font-size:20px;
+		font-family: "poppinsbold";
+		font-weight: normal;
+		padding-top:20px;
+		padding-bottom:20px;
+		}
+	}
+}

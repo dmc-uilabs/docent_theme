@@ -1,0 +1,30 @@
+{
+  "name": "docent-frontend",
+  "description": "A set of common build tasks written with npm scripts.",
+  "main": "",
+  "authors": [
+    "Damon Bauer <hello@damonbauer.me>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "scripts",
+    "npm",
+    "scripts",
+    "watch",
+    "minify",
+    "compress"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7"
+  }
+}
