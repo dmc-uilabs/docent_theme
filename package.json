@@ -1,6 +1,5 @@
 {
   "name": "docentfrontend",
-  "version": "0.2",
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",

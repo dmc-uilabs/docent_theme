@@ -12,25 +12,8 @@
 	require(dirname(__FILE__).'/components/header-general.php');?>
 	
 
-	<div class="container">
-		<div class="row">
-		<div class="col-md-9">		
-		Jump bar
-		</div>
-		
-		<div class="col-md-3">
-		<form>
-		
-		   <div class="input-group">
-		     <input type="text" class="form-control" placeholder="Search for...">
-		     <span class="input-group-btn">
-		       <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-		     </span>
-		   </div><!-- /input-group -->
-		   </form>
-
-		   </div>
-		</div>
+	<div class="container" id="mainContent">
+		<?php require(dirname(__FILE__).'/components/search-jump.php');?>
 		<table class="table table-striped">
 		<tr>
 			<th>Ancronym</th>

@@ -33,7 +33,7 @@
 <dd><a href="/src/templates/definitions.php">Definitions</a></dd>
 <dd><a href="/src/templates/help.php">Help</a>*</dd>
 <dd><a href="/src/templates/na-questions.php">N/A Questions</a></dd>
-<dd><a href="/src/templates/skipped-quesitons.php">Skipped Questions</a></dd>
+<dd><a href="/src/templates/skipped-questions.php">Skipped Questions</a></dd>
 <dd>Question <ul>
 <li><a href="/src/templates/question-yes.php">Question-yes</a> - In Progress</li>
 <li><a href="/src/templates/question-no.php">Question-no</a> - In Progress</li>

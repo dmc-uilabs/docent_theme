@@ -2,6 +2,7 @@
 @import 'utilities';
 @import 'fonts';
 @import 'questions';
+@import 'definitions';
 body {
   background-color: $color-white;
   font-family: "didact_gothicregular", sans-serif;
@@ -218,6 +219,10 @@ form label {
 		background:$color-black;
 		color:white; 
 	}
+}
+
+.jumpmenu {
+	margin-bottom:68px;
 }
 
 // Should include the bootstrap vars for this.
