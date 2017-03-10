@@ -30,14 +30,10 @@ require(dirname(__FILE__).'/header-common.php');?>
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-sm-12">
 			<div class="progress">
 			  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 17%;">
 			    17%
 			  </div>
-			</div>
-			</div>
 		</div>
 		</div>
 	</header>

@@ -1,5 +1,9 @@
+
+$didact : 'didact_gothicregular';
+$poppins : 'poppinsbold';
+
 @font-face {
-    font-family: 'didact_gothicregular';
+    font-family: $didact;
     src: url('../fonts/didactgothic-regular-webfont.woff2') format('woff2'),
          url('../fonts/didactgothic-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -11,10 +15,11 @@
 
 
 @font-face {
-    font-family: 'poppinsbold';
+    font-family: $poppins;
     src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
          url('../fonts/poppins-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
+

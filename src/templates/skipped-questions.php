@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en" class="no-js">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../dist/css/main.css">
 </head>
@@ -14,51 +15,35 @@ require(dirname(__FILE__).'/components/header-general.php');?>
 	<div class="container"  id="mainContent">
 		<div class="row">
 		<div class="col-xs-12">
-				Technology &amp; Industrial Base
+				<h4>Technology &amp; Industrial Base</h4>
 		</div>	
 		</div>
+		<div class="groupContent">
 		<div class="row">
-			<div class="col-xs-3">Level 7</div>
-			<div class="col-xs-9">Has the industrial capability to support production been analyzed?</div>
+			<div class="col-sm-3">Level 7</div>
+			<div class="col-sm-9">Has the industrial capability to support production been analyzed?</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-3">Level 7</div>
-			<div class="col-xs-9">Are the necessary manufacturing tecchnology development efforts still continuing?</div>
+			<div class="col-sm-3">Level 7</div>
+			<div class="col-sm-9">Are the necessary manufacturing tecchnology development efforts still continuing?</div>
+		</div>
 		</div>
 		<div class="row">
-		<div class="col-xs-12">
-				Design
+		<div class="col-sm-12">
+				<h4>Design</h4>
 		</div>	
 		</div>
+		<div class="groupContent">
 		<div class="row">
-			<div class="col-xs-3">Level 6</div>
-			<div class="col-xs-9">Are the producibility enhancement efforts (e.g., Design For Manufacturing and Design for Assembly) ongoing for an optimized integrated system?</div>
+			<div class="col-sm-3">Level 6</div>
+			<div class="col-sm-9">Are the producibility enhancement efforts (e.g., Design For Manufacturing and Design for Assembly) ongoing for an optimized integrated system?</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-3">Level 7</div>
-			<div class="col-xs-9">Are the necessary manufacturing tecchnology development efforts still continuing?</div>
-		</div>
-
-<br/><br/><br/><br/><br/>
-
-		<table class="table">
-		<tr><th colspan=2>		Technology &amp; Industrial Base</th></tr>
-		<tr><th>Level 7</th>
-		<td>Has the industrial capability to support production been analyzed?</td></tr>
-		<tr><th>Level 7</th>
-		<td>Are the necessary manufacturing tecchnology development efforts still continuing?</td></tr>
-		<tr><th colspan=2>Design</th></tr>
-		<tr><th>Level 6</th>
-		<td>Are the producibility enhancement efforts (e.g., Design For Manufacturing and Design for Assembly) ongoing for an optimized integrated system?</td></tr>
-		<tr><th>Level 7</th>
-		<td>Are the necessary manufacturing tecchnology development efforts still continuing?</td></tr>
-
-		</table>
-
+		
+</div>
 
 		</div>
 	<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"/>
+	<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="../../dist/js/app.min.js"></script>
 </body>
 </html>
