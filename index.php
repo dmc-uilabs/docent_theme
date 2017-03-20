@@ -2,7 +2,6 @@
 <html dir="ltr" lang="en" class="no-js">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="dist/css/main.css">
 	
 	<style>
@@ -11,7 +10,7 @@
 	</style>
 
 </head>
-<body>
+<body  id="docent">
 	<?php 
 	$title = "Templates";
 	require(dirname(__FILE__).'/src/templates/components/header-general.php');?>
@@ -26,7 +25,6 @@
 		<dd><a href="/src/templates/components/header-general.php">General Header</a></dd>
 		<dd><a href="/src/templates/base.php">Page Base</a></dd>
 		<dd><a href="/src/templates/search-jump.php">Search / Jump Menu</a> - Needs some css cleanup</dd>
-		<dd> Calendar / Date Picker - Style as per the update</dd>
 
 <dt>Pages</dt>
 <dd><a href="/src/templates/acronyms.php">Acronyms</a> - Add additional rows if time permits</dd>
@@ -38,26 +36,26 @@
 <dd><a href="/src/templates/na-questions.php">N/A Questions</a></dd>
 <dd><a href="/src/templates/skipped-questions.php">Skipped Questions</a></dd>
 <dd>Question <ul>
-<li><a href="/src/templates/question-yes.php">Question-yes</a> - Mostly complete</li>
-<li><a href="/src/templates/question-no.php">Question-no</a> - Mostly complete</li>
+<li><a href="/src/templates/question-yes.php">Question-yes</a></li>
+<li><a href="/src/templates/question-no.php">Question-no</a> </li>
 </ul>
-<dd><a href="/src/templates/review.php">Review</a> - Css / Spacing</dd>
-<dd><a href="/src/templates/start.php">Start</a>- TODO: All styling</dd>
-<dd><a href="/src/templates/navigation.php">Navigation</a> - TODO: Cleanup css</dd>
+<dd><a href="/src/templates/review.php">Review</a></dd>
+<dd><a href="/src/templates/start.php">Start</a></dd>
+<dd><a href="/src/templates/navigation.php">Navigation</a></dd>
 
 
 <dd>* pending final design</dd>
 
 
 <dt>Flattened pages</dt>
-<dd><a href="/src/flats/question-yes.html">Question-yes</a> - In Progress</dd>
-<dd><a href="/src/flats/question-no.html">Question-no</a> - In Progress</dd>
+<dd><a href="/src/flats/question-yes.html">Question-yes</a></dd>
+<dd><a href="/src/flats/question-no.html">Question-no</a></dd>
 
 
 </dl>
 	</div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"/>
-  <script src="dist/js/app.min.js"></script>
+	<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
 </body>
 </html>

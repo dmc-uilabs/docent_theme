@@ -2,10 +2,11 @@
 <html dir="ltr" lang="en" class="no-js">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../../dist/css/main.css">
+<link rel="stylesheet" href="../../dist/css/main.css">
+
 </head>
-<body>
+<body id="docent">
+
 
 <?php 
 $title = "Skipped Questions";
@@ -42,8 +43,9 @@ require(dirname(__FILE__).'/components/header-general.php');?>
 </div>
 
 		</div>
-	<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="../../dist/js/app.min.js"></script>
+
+		<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -1,14 +1,23 @@
+
 @import 'variables';
-@import 'utilities';
+
 @import 'fonts';
+
+#docent {
+	  background-color: $color-white;
+	  font-family: "didact_gothicregular", sans-serif;
+	  margin:0;
+	
+
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+
+@import 'utilities';
+
 @import 'questions';
 @import 'definitions';
 @import 'navigation';
+@import 'review';
 
-body {
-  background-color: $color-white;
-  font-family: "didact_gothicregular", sans-serif;
-}
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight:normal;
@@ -16,7 +25,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin:0;
 }
 
+p {
+	line-height:24px;
+	font-size:16px;
+	margin-bottom:30px;
+	clear:both;
+}
 
+h2 {
+	font-size:22px;
+}
 
 h4 {
 	border-top: 1px solid $border-color;
@@ -106,12 +124,6 @@ header {
 			text-decoration:underline;
 			cursor:pointer;
 		}
-		p {
-			line-height:24px;
-			font-size:16px;
-			margin-bottom:30px;
-
-		}
 	}
 }
 
@@ -200,10 +212,9 @@ header {
 }
 
 .btn-primary {
-	background: $color-blue;
 	border-radius: 0px;
-	display:block;
-	width:136px;
+	// display:block;
+	// width:136px;
 	margin-bottom:10px;
 	&:hover, &.active, &:focus, &:active {
 		background-color: $color-blue;
@@ -324,8 +335,9 @@ dl.inline-list {
 		display:block;
 		content: "";
 	}
-	padding-bottom:40px;
+	padding-bottom:30px;
 	border-bottom:1px solid $border-color;
+	margin:0;
 }
 
 .navbar-default{
@@ -397,6 +409,39 @@ dl.inline-list {
 	}
 }
 
+
+.tooltipContainer {
+	position:relative;
+		&:hover {
+			.test-tooltip{
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	
+
+
+	.test-tooltip {
+
+		position:absolute;
+		font-size: 14px;
+		background: $color-white;
+		width:400px;
+		top:40px;
+		left:0;
+		border:1px solid $color-greyish-brown3;
+		padding:10px;
+		box-shadow: 2px 2px 10px $color-greyish-brown3;
+		opacity:0;
+		visibility: hidden;
+		transition-property: all;
+		transition-duration: 0.3s;
+
+
+	
+}
+}
+
 .progressTable {
  	font-fadmily:$didact;
  	font-size: 16px;
@@ -419,4 +464,61 @@ dl.inline-list {
 		text-transform:uppercase;
 		text-align:right;
 	}
+}
+
+.addButton {
+	background:none;
+	border:none;
+
+	color: $color-correct;
+	font-family: $poppins;
+	text-align:left;
+
+	padding:0;
+	margin:0;
+	position:relative;
+
+	font-size:14px;
+	display:inline-block;
+	
+	margin-bottom:34px;
+	padding-left:50px;
+	line-height:30px;
+
+
+	.glyphicon {
+		height:30px;
+		display:inline-block;
+		font-size:30px;
+		position: absolute;
+		left:0px;;
+		line-height: 30px;
+	}
+}
+
+.removeButton {
+	background:none;
+	font-size:30px;
+	border:none;
+	color: $color-incorrect;
+	padding:0;
+	border:none;
+	height:30px;
+}
+
+
+.memberRow {
+	margin-bottom:20px;
+}
+.continueSection {
+	border-top: 1px solid $border-color;
+	clear:both;
+	padding-top:33px;
+	margin-top:40px;
+}
+
+.instruction {
+	color: #949494;
+	font-size:16px;
+}
 }

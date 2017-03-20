@@ -1,0 +1,87 @@
+.export {
+	background:none;
+	text-transform:uppercase;
+	color: $link-color;
+	&:hover {
+		color: $primary-hover;
+
+	}
+	&:active {
+		color: $primary-active;
+	}
+	.glyphicon {
+		margin-right:10px;
+	}
+
+	float:right;
+	font-family: $poppins;
+	font-weight:normal;
+	font-size:12px;
+	letter-spacing: 0.9px;
+	margin-bottom:30px;
+	&:after {
+		display:block;
+		width:100%;
+		content: " "; 
+		clear:both;
+		visibility: hidden;
+	}
+}
+
+
+.review-block {
+	border-bottom: 1px solid $border-color;
+	padding: 30px 0;
+	h2 {
+		font-family:$didact;
+		font-weight:normal;
+		margin: 0 0 30px 0;
+		font-size:20px;
+}
+	dl {
+		margin:0;
+	}
+	dt {
+		margin-top:30px;
+		font-family:$poppins;
+		font-size: 14px;
+		letter-spacing: 0.86px;
+	}
+	dd {
+		margin-top:10px;
+		font-size:16px;
+
+	}
+
+}
+
+
+.status {
+	display:inline-block;
+	padding: 8px;
+	font-family: $poppins;
+	font-size:14px;
+	letter-spacing: 0.2px;
+	color: $color-white;
+	text-transform:uppercase;
+}
+
+.status-no {
+	@extend .status;
+	background-color: $color-incorrect;
+}
+
+.status-skipped {
+	@extend .status;
+	background-color: $color-skipped;
+}
+
+.status-yes {
+	@extend .status;
+	background-color: $color-correct;
+}
+
+.status-na {
+	@extend .status;
+	background-color: $color-incomplete;
+}
