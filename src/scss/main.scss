@@ -17,7 +17,7 @@
 @import 'definitions';
 @import 'navigation';
 @import 'review';
-
+@import 'criteria';
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight:normal;
@@ -275,6 +275,19 @@ hr {
 	padding: 13px 25px 11px 25px;
 	font-family: "poppinsbold", sans-serif;
 }
+
+// Don't overrride button groups
+.input-group-btn .btn {
+	padding:6px 12px;
+	line-height:1.42857;
+	font-size:14px;
+	background:#fbfbfb;
+	border: 1px solid #ccc;
+	border-left:none;
+	border-radius:0px;
+
+}
+
 input, textarea, .form-control {
 	border-radius: 0;
 	background-color:#fbfbfb;
@@ -521,4 +534,15 @@ dl.inline-list {
 	color: #949494;
 	font-size:16px;
 }
+
+.jumpmenu {
+	font-size:16px;
+	a {
+		margin-left:4px;
+		margin-right:4px;
+	}
+}
+
+
+
 }

@@ -35,3 +35,15 @@ $didact : 'didact_gothicregular';
 $poppins : 'poppinsbold';
 
 $brand-primary: $color-blue;
+
+
+@mixin glyphicon {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+}

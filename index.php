@@ -24,10 +24,10 @@
 		<dd><a href="/src/templates/components/header-dashboard.php">Dashboard Header</a></dd>
 		<dd><a href="/src/templates/components/header-general.php">General Header</a></dd>
 		<dd><a href="/src/templates/base.php">Page Base</a></dd>
-		<dd><a href="/src/templates/search-jump.php">Search / Jump Menu</a> - Needs some css cleanup</dd>
+		<dd><a href="/src/templates/components/search-jump.php">Search / Jump Menu</a></dd>
 
 <dt>Pages</dt>
-<dd><a href="/src/templates/acronyms.php">Acronyms</a> - Add additional rows if time permits</dd>
+<dd><a href="/src/templates/acronyms.php">Acronyms</a> </dd>
 <dd><a href="/src/templates/action-items.php">Action Items</a></dd>
 <dd><a href="/src/templates/criteria.php">Criteria</a>*</dd>
 <dd><a href="/src/templates/dashboard.php">Dashboard</a></dd>
@@ -43,8 +43,6 @@
 <dd><a href="/src/templates/start.php">Start</a></dd>
 <dd><a href="/src/templates/navigation.php">Navigation</a></dd>
 
-
-<dd>* pending final design</dd>
 
 
 <dt>Flattened pages</dt>
