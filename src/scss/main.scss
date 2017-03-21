@@ -285,6 +285,11 @@ hr {
 	border: 1px solid #ccc;
 	border-left:none;
 	border-radius:0px;
+	color:black;
+	&:hover {
+		background:#fbfbfb;
+		color:black;
+	}
 
 }
 
