@@ -16,6 +16,7 @@
 	}
 }
 
+
 .dl-label {
 	font-family: $poppins;
 	text-transform:uppercase;
@@ -25,6 +26,11 @@
 .milestoneCol {
 	text-align:right;
 }
+
+
+
+
+
 .milestoneList{
 	margin-left:10px;
 	display:block;float:right;
@@ -48,6 +54,17 @@
 	padding-top:2px;
 	letter-spacing: 0.3px;
 	}
+}
+@media (max-width:  $screen-xs-max) {
+	.milestoneCol {
+		text-align:left;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.milestoneList {
+		
+		display:inline;
+	}	
 }
 
 .criteria-controls {
@@ -120,9 +137,15 @@
 		input {
 			margin-right:5px;
 			top:-1px;
-		}
+		}	}
 		
-	}
+		@media (max-width:  $screen-xs-max) {
+		.checkbox {
+			margin-left:0;
+		}
+		}
+
+
 	.filter-label + .checkbox {
 		margin-left: 0;
 	}

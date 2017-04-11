@@ -5,7 +5,7 @@
 
 #docent {
 	  background-color: $color-white;
-	  font-family: "didact_gothicregular", sans-serif;
+	  font-family: $didact, sans-serif;
 	  margin:0;
 	
 
@@ -18,10 +18,18 @@
 @import 'navigation';
 @import 'review';
 @import 'criteria';
+@import 'dashboard';
+
+// Firefox table fix.
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight:normal;
-	font-family: "poppinsbold";
+	font-family: $poppins;
 	margin:0;
 }
 
@@ -63,12 +71,18 @@ a {
 	}
 
 }
+
+
 header {
 	background:$color-black;;
 	color:$color-white;
-
+	
 	&#primaryheader {
 		padding-bottom:30px;
+		.navbar-toggle {
+			margin-right:0;
+
+		}
 		nav.navbar {
 			margin-bottom:0px;
 		}
@@ -79,7 +93,14 @@ header {
 		.row {
 		padding-bottom:30px;
 		}
+		@media (max-width:  $screen-xs-max) {
+			&#primaryheader {
+				padding-bottom:10px;
+			}
+
+		}
 		
+
 	}
 
 
@@ -113,6 +134,32 @@ header {
 			border-radius: 0px;	
 			margin-right:15px;
 			margin-left:15px;
+		}
+
+		@media (max-width:  $screen-xs-max) {
+				.container {
+					min-height:0;
+					padding-bottom:10px;
+				}
+				&.has-progress .container {
+					padding-bottom:40px;
+				}
+			 .progress {
+				margin:0;
+			}
+			.xs-expand-link {
+				position:absolute;
+				right:15px;
+				top:0;
+				cursor:pointer;
+				font-size:10px;
+				line-height:20px;
+			}
+			.breadcrumb {
+				font-size:16px;
+				line-height:20px;
+				margin-right:20px;
+			}
 		}
 		.meta {
 			font-size:15px;
@@ -221,43 +268,6 @@ header {
 	}
 }
 
-.progressTable{
-	td.indicator{
-		width:35px;
-		background-color: $color-offwhite;
-		&.correct{
-			background-color: $color-correct;
-			&:after {
-			content: "";
-			font-family: 'Glyphicons Halflings';
-			display:block;
-			color:white;
-			text-align:center;
-			}
-		
-		}
-		&.incorrect{
-			background-color: $color-incorrect;
-			&:after {
-			content: "";
-			font-family: 'Glyphicons Halflings';
-			display:block;
-			color:white;
-			text-align:center;
-			}
-		}
-		&.incomplete{
-			background-color: $color-incomplete;
-			&:after {
-			content: "−";
-			font-family: 'Glyphicons Halflings';
-			display:block;
-			color:white;
-			text-align:center;
-			}
-		}
-	}
-}
 
 hr {
 	border-color: #dcdcdc;
@@ -318,6 +328,21 @@ form label {
 
 .jumpmenu {
 	margin-bottom:68px;
+	.jump-desktop {
+		line-height:35px;
+	}
+	@media (max-width:  $screen-xs-max) {
+	margin-bottom:20px;
+
+	.form-group {
+		margin-bottom:15px;
+	}
+
+	.input-group-addon.jump-label {
+		background:transparent;
+		border:none;;
+	}
+	}
 }
 
 // Should include the bootstrap vars for this.
@@ -368,7 +393,7 @@ dl.inline-list {
 	height:32px;
 	// display:block;
 	width:42px;
-	background-position:center;
+	background-position:center right;
 	background-repeat:no-repeat;
 	&:hover, &:focus, &:active {
 		background-color:transparent;
@@ -460,29 +485,6 @@ dl.inline-list {
 }
 }
 
-.progressTable {
- 	font-fadmily:$didact;
- 	font-size: 16px;
-
-	border-spacing: 4px;
-	border-collapse: separate;
-	
-	th {
-		font-size:12px;
-		line-height:20px;
-	}
-	tr>th:first-of-type, tr>td:first-of-type {
-		padding-left:0;
-	}
-	tr>th:last-of-type, tr>td:last-of-type {
-		padding-right:0;
-	}
-	
-	thead th:last-of-type, tr>td:last-of-type {
-		text-transform:uppercase;
-		text-align:right;
-	}
-}
 
 .addButton {
 	background:none;

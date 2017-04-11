@@ -1,0 +1,141 @@
+
+.progress-table {
+ 	font-fadmily:$didact;
+ 	font-size: 16px;
+
+	border-spacing: 4px;
+	border-collapse: separate;
+	
+	th {
+		font-size:12px;
+		line-height:20px;
+	}
+	tr>th:first-of-type, tr>td:first-of-type {
+		padding-left:0;
+	}
+	tr>th:last-of-type, tr>td:last-of-type {
+		padding-right:0;
+	}
+	
+	thead th:last-of-type, tr>td:last-of-type {
+		text-transform:uppercase;
+		text-align:right;
+	}
+}
+
+.progress-table{
+	tbody>tr>td {
+		padding:0;
+		vertical-align:middle;
+		border-spacing:0;
+		border-collapse:collapse;
+	}
+	&>thead>tr>th {
+		border:none;
+		text-align:center;
+		font-weight:bold;
+		font-family: $poppins;
+	}
+
+	tr > td:first-of-type {
+		min-width:200px;
+	}
+
+	td .indicator{
+		width:35px;
+		height:40px;
+		display:block;
+		background-color: $color-offwhite;
+		margin:0 auto;
+		&:after {
+			line-height:40px;
+			font-family: 'Glyphicons Halflings';
+			display:block;
+			color:white;
+			text-align:center;
+		}
+		&.correct{
+			background-color: $color-correct;
+			&:after {
+			content: "";
+			}
+		
+		}
+		&.incorrect{
+			background-color: $color-incorrect;
+			&:after {
+			content: "";
+			}
+		}
+		&.incomplete{
+			background-color: $color-incomplete;
+			&:after {
+			content: "−";
+			}
+		}
+	}
+}
+
+
+.mobile-cards .progress-table {
+	width:auto;
+	margin:0px 0 20px;;
+	border:none;
+	border-spacing:0;
+	th {
+		text-align:center;
+		font-weight:bold;
+		font-family:$poppins;
+		width:10%;
+	&:last-of-type{
+		text-align: center;
+	}
+	}
+	tr > td:first-of-type {
+		min-width:0px;
+	}
+	td {
+		border-right:4px solid white;
+		width:10%;
+		&:last-of-type {
+			border-right:none;
+		}
+	}
+}
+
+.dashboard-controls {
+	.btn {
+		margin-right: 20px;
+	}
+}
+@media (max-width:  $screen-xs-max) {
+.dashboard-controls {
+	.btn {
+		display:block;
+	}
+}
+	.navigation-group {
+		.group-title {
+			margin: 20px 0;
+			display:block;
+			a {
+				display:block;
+				font-size:14px;
+			}
+		}
+
+		h3 {
+			border-top:1px solid $border-color;
+			padding: 20px 0 0px;
+			font-size:14px;
+			text-transform:none;
+		}
+
+		time {
+			display:block;
+			padding: 10px 0 20px; 
+		}
+	}
+
+
+}

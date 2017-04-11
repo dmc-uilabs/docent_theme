@@ -15,7 +15,11 @@
 	
 
 	<div class="container" id="mainContent">
-	<div class="pull-right"><a href="#">Export</a></div>
+	<div class="row">
+	<div class="col-xs-12">
+	<div class="pull-right"><a href="#" class="export-button"><span class="glyphicon glyphicon-export"></span> Export</a></div>
+	</div>
+	</div>
 	<div class="actionItem">
 	<p> Is the Technology Readiness at TRL 8 or 9?</p>
 
