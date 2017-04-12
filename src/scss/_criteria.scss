@@ -73,8 +73,6 @@
 	letter-spacing: 0.9px;
 	font-family: $poppins;
 	.glyphicon {
-		margin-right:10px;
-		margin-left:10px;
 	}
 	&:before {
 		@include glyphicon;
@@ -107,6 +105,7 @@
 	}
 
 	&.collapse-all {
+		margin-left:10px;
 		&:before {
 			
 		}

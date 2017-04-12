@@ -11,120 +11,212 @@
 	<?php 
 	// Get the proper header
 	$title = "Navigation";
-	require(dirname(__FILE__).'/components/header-general.php');?>
+	require(dirname(__FILE__).'/components/header-general.php');
+	$testData = [
+			"Technology Maturity" => 
+			["Technology Maturity"=>
+				[
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+				]],
+			"Technology &amp; Industrial Base"=>[
+				"Technology Transition to Production" =>[
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+				],
+				"Manufacturing Technology Development" => [
+				["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+				["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+				["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+				["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+				["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+				["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+				["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+				["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+				["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+				["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"]]
+			],
+			"Design"=>[
+				"Producibility Program" =>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],]
+			],
+			"Cost and Funding"=>[
+				"Production Cost Knowledge (Cost Modeling)"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],],
+				"Cost Analysis"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],],
+				"Manufacturing Investment Budget"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],]
+			],
+			"Materials"=>[
+				"Maturity"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],],
+				"Availability"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],],
+				"Supply Chain Management"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],],
+				"Special Handling"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],]
+			],
+			"Process Capability &amp; Control"=>[
+			"Modeling &amp; Simulation"=>
+				[			["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],
+					["Have pertinent Manufacturing Science (MS) and Advanced Manufacturing Technology requirements been identified?"],
+					["Are the necessary manufacturing technology development efforts continuing?", "Have the required manufacturing technology development solutions been demonstrated in a production relevant environment?"],]
+			]
+		];
+
+	?>
 	
 
 	<div class="container" id="mainContent">
 	<p> Click on any thread, sub-thread, level, or question to continue the questionaire at that point.</p>
 
-	 
+	 <?php
+	 $i=0;
+	    foreach ($testData as $section => $items) {
+			?>
 	    <div class="navigation-group">
 	      <h4 class="group-title">
-	        <a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapse-item collapsed">
-	          Collapsible Group Item #1
+	        <a role="button" data-toggle="collapse" href="#collapse<?=$i;?>" aria-expanded="true" aria-controls="collapse<?=$i;?>" class="collapse-item collapsed">
+	          <?=$section;?>
 	        </a>
 	      </h4>
 	    
-	    <ul id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+	    <ul id="collapse<?=$i;?>" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+	     <?php $j = 0;
+				foreach($items as $category => $questions){
+	     ?>
+
 	     <li>	
-	     	<a role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne" class="collapse-item collapsed">
-	     	  Technology Transition to Production
+	     	<a role="button" data-toggle="collapse" href="#collapse<?=$i. '-'.$j;?>" aria-expanded="true" aria-controls="collapse<?=$i. '-'.$j;?>" class="collapse-item collapsed">
+	     	  <?=$category;?>
 	     	</a>
-	     	<ul id="collapseTwo" class="collapse">
-					<li><a role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree" class="collapse-item collapsed">
-	     	  Technology Transition to Production
+	     	<ul id="collapse<?=$i. '-'.$j;?>" class="collapse">
+					<?php 
+					$k=0;
+					foreach($questions as $index => $questionList){
+					?>
+
+					<li><a role="button" data-toggle="collapse" href="#collapse<?=$i.'-'.$j.'-'.$k;?>" aria-expanded="true" aria-controls="collapse<?=$i.'-'.$j.'-'.$k;?>" class="collapse-item collapsed">
+	     	  <?=$index;?>
 	     	</a>
-					<ul id="collapseThree" class="collapse">
-						<li><a href="#">Question 1</a></li>
+					<ul id="collapse<?=$i.'-'.$j.'-'.$k;?>" class="collapse">
+						<?php foreach ($questionList as $questionText){?>
+						<li><a href="#"><?=$questionText;?></a></li>
 
-						<li><a href="#">Question 2</a></li>
-
-						<li><a href="#">Question 3</a></li>
-
-						<li><a href="#">Question 4</a></li>
-
+						<?php } ?>
+						
 					</ul>
 	     	</li>
-					<li>3</li>
-					<li>4</li>
-					<li>5</li>
+	     	<?php $k++;} ?>
+					
 	     	</ul>
 	     	</li>
+	     	<? $j++; } ?>
 	    </ul>
 	  
 	 </div>
-
-	     <div class="navigation-group">
-	       <h4 class="group-title">
-	         <a role="button" data-toggle="collapse" href="#collapseTwoOne" aria-expanded="true" aria-controls="collapseOne" class="collapse-item collapsed">
-	           Collapsible Group Item #1
-	         </a>
-	       </h4>
-	     
-	     <ul id="collapseTwoOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-	      <li>	
-	      	<a role="button" data-toggle="collapse" href="#collapseTwoTwo" aria-expanded="true" aria-controls="collapseOne" class="collapse-item collapsed">
-	      	  Technology Transition to Production
-	      	</a>
-	      	<ul id="collapseTwoTwo" class="collapse">
-	 				<li><a role="button" data-toggle="collapse" href="#collapseTwoThree" aria-expanded="true" aria-controls="collapseThree" class="collapse-item collapsed">
-	      	  Technology Transition to Production
-	      	</a>
-	 				<ul id="collapseTwoThree" class="collapse">
-	 					<li><a href="#">Question 1</a></li>
-
-	 					<li><a href="#">Question 2</a></li>
-
-	 					<li><a href="#">Question 3</a></li>
-
-	 					<li><a href="#">Question 4</a></li>
-
-	 				</ul>
-	      	</li>
-	 				<li>3</li>
-	 				<li>4</li>
-	 				<li>5</li>
-	      	</ul>
-	      	</li>
-	     </ul>
-	   
-	  </div>
-
-	      <div class="navigation-group">
-	        <h4 class="group-title">
-	          <a role="button" data-toggle="collapse" href="#collapseThreeOne" aria-expanded="true" aria-controls="collapseOne" class="collapse-item collapsed">
-	            Collapsible Group Item #1
-	          </a>
-	        </h4>
-	      
-	      <ul id="collapseThreeOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-	       <li>	
-	       	<a role="button" data-toggle="collapse" href="#collapseThreeTwo" aria-expanded="true" aria-controls="collapseOne" class="collapse-item collapsed">
-	       	  Technology Transition to Production
-	       	</a>
-	       	<ul id="collapseTwo" class="collapse">
-	  				<li><a role="button" data-toggle="collapse" href="#collapseThreeThree" aria-expanded="true" aria-controls="collapseThree" class="collapse-item collapsed">
-	       	  Technology Transition to Production
-	       	</a>
-	  				<ul id="collapseThree" class="collapse">
-	  					<li><a href="#">Question 1</a></li>
-
-	  					<li><a href="#">Question 2</a></li>
-
-	  					<li><a href="#">Question 3</a></li>
-
-	  					<li><a href="#">Question 4</a></li>
-
-	  				</ul>
-	       	</li>
-	  				<li>3</li>
-	  				<li>4</li>
-	  				<li>5</li>
-	       	</ul>
-	       	</li>
-	      </ul>
-	    
-	   </div>
+	 <?php 
+	 $i++;
+	 
+	 } ?>
+	
 		</div>
 
 		<script src="../../bower_components/jquery/dist/jquery.min.js"></script>

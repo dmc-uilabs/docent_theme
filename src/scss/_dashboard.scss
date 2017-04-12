@@ -24,12 +24,24 @@
 }
 
 .progress-table{
+	border-spacing:0;
+	border-collapse:collapse;
 	tbody>tr>td {
-		padding:0;
 		vertical-align:middle;
-		border-spacing:0;
-		border-collapse:collapse;
+		padding-left:0;
+		padding-right:0;
+		width:44px;
+		&:first-of-type {
+			padding-right:8px;
+			width:auto;
+		}
+
+		&:last-of-type {
+			padding-left:8px;
+			width:auto;
+		}
 	}
+
 	&>thead>tr>th {
 		border:none;
 		text-align:center;
@@ -40,13 +52,14 @@
 	tr > td:first-of-type {
 		min-width:200px;
 	}
-
+	
 	td .indicator{
 		width:35px;
 		height:40px;
+
 		display:block;
 		background-color: $color-offwhite;
-		margin:0 auto;
+		margin:2px auto;
 		&:after {
 			line-height:40px;
 			font-family: 'Glyphicons Halflings';
@@ -104,25 +117,32 @@
 }
 
 .dashboard-controls {
+	
 	.btn {
 		margin-right: 20px;
 	}
 }
 @media (max-width:  $screen-xs-max) {
 .dashboard-controls {
+	margin-top:10px;
 	.btn {
 		display:block;
 	}
 }
 	.navigation-group {
 		.group-title {
-			margin: 20px 0;
+			margin: 10px 0;
+			padding:10px;
 			display:block;
 			a {
 				display:block;
 				font-size:14px;
 			}
 		}
+
+		.navigation-content {
+			padding-left:25px;
+			padding-bottom:20px;
 
 		h3 {
 			border-top:1px solid $border-color;
@@ -135,6 +155,7 @@
 			display:block;
 			padding: 10px 0 20px; 
 		}
+	}
 	}
 
 

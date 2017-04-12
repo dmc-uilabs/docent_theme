@@ -57,9 +57,15 @@
 	
 
 	<div class="container" id="mainContent">
-	
-<div class="full-table hidden-xs">
-	<table class="table progress-table table-responsive">
+	<div class="row">
+	<div class="col-xs-12">
+		<a href="#" class="visible-xs pull-left btn-link" onclick="$('.collapse', '.navigation-group').each(function(){$(this).collapse()});"><span class="glyphicon glyphicon glyphicon-collapse-down"></span> Expand All</a>
+		<a href="#" class="pull-right btn-link"><span class="glyphicon glyphicon-save"></span> Save as Image</a>
+	</div>
+	</div>
+<div class="full-table hidden-xs table-responsive">
+
+	<table class="table progress-table ">
 	<thead>
 	<tr >
 	<th></th>
@@ -123,12 +129,7 @@
 	</div>
 
 	<div class="mobile-cards visible-xs">
-		<div class="row">
-		<div class="col-xs-12">
-			<a href="#" onclick="$('.collapse', '.navigation-group').each(function(){$(this).collapse()});">Expand All</a>
-			<a href="#">Save as Image</a>
-		</div>
-		</div>
+	
 		<div class="row">
 		<div class="col-xs-12">
 		<?php
@@ -142,7 +143,7 @@
 				          <?=$section;?>
 				        </a>
 				      </h4>
-				    <div id="collapse<?=$i;?>" class="collapse">
+				    <div id="collapse<?=$i;?>" class="collapse navigation-content">
 				    <?php foreach ($items as $item => $rowData) {?>
 				    <h3><?=$item;?></h3>
 							<time datetime="2011-01-12">Completion date: 2017-01-03</time>			    	

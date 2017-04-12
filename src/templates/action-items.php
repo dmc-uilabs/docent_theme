@@ -17,7 +17,7 @@
 	<div class="container" id="mainContent">
 	<div class="row">
 	<div class="col-xs-12">
-	<div class="pull-right"><a href="#" class="export-button"><span class="glyphicon glyphicon-export"></span> Export</a></div>
+	<div class="pull-right"><a href="#" class="btn-link"><span class="glyphicon glyphicon-export"></span> Export</a></div>
 	</div>
 	</div>
 	<div class="actionItem">

@@ -35,7 +35,7 @@
 					      </select>
 					  </div>
 
-						<h3>Action Plan</h3>
+						<h3 class="section-heading">Action Plan</h3>
 
 						<div class="row">
 						<div class="col-md-8">
@@ -47,14 +47,13 @@
 						</div>
 						<div class="col-md-4">
 						<label for="answer-evidence">When</label>
-						<div class="input-group date">
-						    <input type="text" class="form-control">
-						    <div class="input-group-addon">
-						        <span class="glyphicon glyphicon-th"></span>
-						    </div>
+						<div class="form-group">
+						    <input type="date" class="form-control">
+						 
 						</div>
 						</div>
 					  </div>
+					  <div class="row"><div class="col-xs-12">
 					  <label for="answer-evidence">Risk</label>
 					  <div class="form-group">
 					  	
@@ -73,6 +72,7 @@
 					  	          <input type="checkbox"> Schedule
 					  	        </label>
 					  	      </div>
+					  </div></div>
 					  </div>
 					 <div class="form-group">
 					   <label for="answer-evidence">What</label>
@@ -125,6 +125,6 @@
 
 		<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-
+		<script src="../../dist/js/app.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,75 @@
+
+.addButton {
+	background:none;
+	border:none;
+
+	color: $color-correct;
+	font-family: $poppins;
+	text-align:left;
+
+	padding:0;
+	margin:0;
+	position:relative;
+
+	font-size:14px;
+	display:inline-block;
+	
+	margin-bottom:34px;
+	padding-left:50px;
+	line-height:30px;
+
+
+	.glyphicon {
+		height:30px;
+		display:inline-block;
+		font-size:30px;
+		position: absolute;
+		left:0px;;
+		line-height: 30px;
+	}
+}
+
+.removeButton {
+	background:none;
+	font-size:30px;
+	border:none;
+	color: $color-incorrect;
+	padding:0;
+	border:none;
+	height:30px;
+}
+
+
+.memberRow {
+	margin-bottom:20px;
+}
+.continueSection {
+	border-top: 1px solid $border-color;
+	clear:both;
+	padding-top:33px;
+	margin-top:40px;
+}
+
+.instruction {
+	color: #949494;
+	font-size:16px;
+}
+@media (max-width: $screen-xs-max) {
+.memberRow {
+	position:relative;
+	margin-bottom:20px;
+
+	.col-sm-5 {
+		margin-right: 40px;
+		&:first-of-type {
+			margin-bottom:10px;
+		}
+
+	}
+	.col-sm-2 {
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+}
+}

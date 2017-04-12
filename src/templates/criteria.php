@@ -17,7 +17,7 @@
 	<div class="container" id="mainContent">
 		<div class="row">
 		<div class="col-sm-6">
-			<a class="document-link" href="#"><span class="glyphicon glyphicon-file"></span>MRL Desktop V2.4</a>
+			<a class="document-link" href="#"><span class="glyphicon glyphicon-file"></span> MRL Desktop V2.4</a>
 		</div>
 		<div class="col-sm-6 milestoneCol">
 			<span class="dl-label">Milestones</span>
@@ -37,10 +37,10 @@
 		<div class="filter-top">
 		<div class="row">
 			<div class="col-xs-12">
-				<a class="criteria-controls filter-button" data-toggle="collapse" href="#collapseFilter">Filter</a>
+				<a class="criteria-controls filter-button collapsed" data-toggle="collapse" href="#collapseFilter">Filter</a>
 					<div class="expand-controls pull-right">
-			<a href="#" class="criteria-controls expand-all"><span class="glyphicon glyphicon-collapse-down"></span>Expand all</a>
-			<a href="#" class="criteria-controls collapse-all"><span class="glyphicon glyphicon-collapse-up"></span>Collapse all</a>
+			<a href="#" class="criteria-controls expand-all"><span class="glyphicon glyphicon-collapse-down"></span> Expand all</a>
+			<a href="#" class="criteria-controls collapse-all"><span class="glyphicon glyphicon-collapse-up"></span> Collapse all</a>
 			</div>
 			</div>
 			
@@ -302,9 +302,9 @@
 			   </div>
 
 	</div>
-
+		
 		<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-
+		<script src="../../dist/js/app.min.js"></script>
 </body>
 </html>

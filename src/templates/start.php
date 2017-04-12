@@ -19,6 +19,7 @@
 		<p class="instruction">Use this option to start a new assessment.</p>	
 		<form>
 		<label>Team Members</label>
+		<div class="memberSection">
 			<div class="row memberRow">
 		<div class="col-sm-5">
 				<input type="text" class="form-control" placeholder="Member Name"/>
@@ -31,7 +32,7 @@
 		</div>
 	</div>
 
-		<div class="memberSection">
+		
 			<div class="row memberRow">
 		<div class="col-sm-5">
 				<input type="text" class="form-control" placeholder="Member Name"/>

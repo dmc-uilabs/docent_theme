@@ -14,7 +14,7 @@ require(dirname(__FILE__).'/header-common.php');?>
 			<div class="col-sm-6 hidden-xs">
 				<div class="row">
 				<div class="col-xs-12 meta">
-					Target MRL: 7 | Target Date: 2017-01-04
+					Target MRL: 7<span class="text-divider">|</span>Target Date: 2017-01-04
 				</div>
 				</div>
 				<div class="row">
@@ -31,7 +31,7 @@ require(dirname(__FILE__).'/header-common.php');?>
 		<div class="collapse"  id="subheader-collapseable">
 		<div class="row visible-xs">
 			<div class="col-xs-12">
-			Target MRL: 7 | Target Date: 2017-01-04
+			Target MRL: 7<span class="text-divider">|</span>Target Date: 2017-01-04
 			</div>
 		</div>
 		<div class="row">

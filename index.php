@@ -16,7 +16,6 @@
 	require(dirname(__FILE__).'/src/templates/components/header-general.php');?>
 	
 	<div class="container" id="mainContent">
-	<p> Todo: Introduction, explanation goes here</p>
 	
 	<dl>
 		<dt>Common Components</dt>
@@ -29,7 +28,7 @@
 <dt>Pages</dt>
 <dd><a href="/src/templates/acronyms.php">Acronyms</a> </dd>
 <dd><a href="/src/templates/action-items.php">Action Items</a></dd>
-<dd><a href="/src/templates/criteria.php">Criteria</a>*</dd>
+<dd><a href="/src/templates/criteria.php">Criteria</a></dd>
 <dd><a href="/src/templates/dashboard.php">Dashboard</a></dd>
 <dd><a href="/src/templates/definitions.php">Definitions</a></dd>
 <dd><a href="/src/templates/help.php">Help</a></dd>
@@ -44,10 +43,6 @@
 <dd><a href="/src/templates/navigation.php">Navigation</a></dd>
 
 
-
-<dt>Flattened pages</dt>
-<dd><a href="/src/flats/question-yes.html">Question-yes</a></dd>
-<dd><a href="/src/flats/question-no.html">Question-no</a></dd>
 
 
 </dl>
