@@ -1,5 +1,7 @@
 # npm-build-boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dmc-uilabs/docent_theme.svg)](https://greenkeeper.io/)
+
 A collection of packages that build a website using `npm scripts`.
 
 * [List of packages used](#list-of-packages-used)
